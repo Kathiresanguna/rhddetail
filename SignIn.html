@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body{
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(120,253,29,0.2863270308123249) 58%, rgba(252,176,69,1) 100%);
+background-size:cover;
+font-family: Calibri, Helvetica, sans-serif;
+font-size:25px;
+
+}
+.regform{
+width:500px;
+margin:250px auto;
+background-color: #F5F5F5;
+color: black;
+border-radius:15px;
+}
+.regform h3{
+text-align:center;
+}
+.regform.textlabel{
+display:block;
+}
+.input input{
+width:100%;
+font-size:1.2em;
+border-radius:10px;
+padding:10px 10px;
+box-sizing:border-box;
+mrgin:5px 0px 15px;
+}
+.input focus{
+background-color:#83c5be
+}
+
+</style>
+</head>
+<body>
+<form action="SignIn1" method="post">
+<div class="regform">
+<h3>Sign In</h3>
+
+<div class=input>
+<label class="textlabel" for="fn"> Username </label>   
+<input type="text" id="fn" name="Username" placeholder= "Username" size="15"  /> 
+</div>
+<div class=input>
+<label class="textlabel" for="ps"> Password </label>   
+<input type="Password" id="ps" name="password" placeholder= "password" size="15"  />   
+</div>
+<div class=input>
+<label class="textlabel"  for="psc"> Confirm Password </label>   
+<input type="password" id="psc" name="Confirm password" placeholder= "Confirm password" size="15"  />   
+</div>
+<div class=input>
+<label  class="textlabel"  for="em"> emailId </label>   
+<input type="email" id="email" name="email" placeholder= "email" size="25"  />   
+</div>
+<div class=input>
+<label for="cno"> Contact Number </label>   
+<input type="text" id="cno" name="Contact" placeholder= "Contact" size="15"  /> 
+</div>
+<div class= btn>
+<button type="Register" value="submit"> Register </button> </br>
+</div>
+<div>
+<form action="Frontpage.html" method="post">  
+<center><button type="HOME" value="submit">HOME</button><br/></center>      
+</form>  
+</div>
+ 
+
+</form></div>
+</body>
+</html>
